@@ -76,6 +76,12 @@ const Results = ({ setIsModalVisible }) => {
                             </div>
                             <div className="flex justify-between gap-2">
                                 <div className="font-bold">
+                                    <FontAwesomeIcon className="text-sm text-blue-500" icon={faDotCircle} /> TTL:
+                                </div> 
+                                <div>{Red['TLS']}</div>
+                            </div>
+                            <div className="flex justify-between gap-2">
+                                <div className="font-bold">
                                     <FontAwesomeIcon className="text-sm text-blue-500" icon={faDotCircle} /> Protocolo:
                                 </div> 
                                 <div>{Red['Protocolo']}</div>
